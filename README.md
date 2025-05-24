@@ -65,7 +65,7 @@ Interfaz del Juego:
 * **Búsqueda en Amplitud (BFS - Breadth-First Search)**: Un algoritmo de búsqueda no informada que explora todos los nodos de un nivel antes de pasar al siguiente. Garantiza encontrar la solución más corta si existe.
 * **Búsqueda A*** **(A-Star Search)**: Un algoritmo de búsqueda informada que utiliza una función heurística (en este caso, la Distancia Manhattan) para estimar el costo desde el nodo actual hasta el objetivo. Es más eficiente que BFS para encontrar soluciones óptimas en puzzles complejos.
 
-**Heurística de Distancia Manhattan**
+**Heurística de Distancia Manhattan**:
 La distancia Manhattan para el Puzzle 8 se calcula como la suma de las distancias horizontales y verticales que cada baldosa (excepto el espacio vacío) necesita moverse desde su posición actual hasta su posición objetivo en el estado resuelto.
 
 ## Comparación de Agentes
